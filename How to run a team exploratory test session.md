@@ -1,7 +1,7 @@
 # How to Run a Team Exploratory Test Session
 
 - Do you have an explicit charter for the Team Exploratory Testing Session? If you don't go and create one, if you aren't able to come up with a charter seriously consider whether you need a Team Exploratory Testing Session.
-- Post a “call to arms” message on the `eng-testing` Slack channel. This message should include the charter, clearly explaining what the objective of a testing session would be and the fact that we are specifically doing *exploratory* testing. This should prevent testers from entering the session with an unrealistic idea of what is expected of them.
+- If you are getting help from people outside your team, notify them clearly about what is happening well in advance. It is helpful to include testers from outside the team if you are short on them.  This message should include the charter, clearly explaining what the objective of a testing session would be and the fact that we are specifically doing *exploratory* testing. This should prevent people from entering the session with an unrealistic idea of what is expected of them.
 -	With the help of any testers that agreed to help, perform the exploratory test session as follows:
     - Set up test resources and environments needed for the session (e.g. databases prepopulated, application versions known).  This should be based on your understanding of what users most commonly use, for example if you're testing a web app and 90% of your users use Chrome, then most of your testing should be on Chrome.
     - Developers pair up (preferably with a tester) for the session.
