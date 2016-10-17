@@ -1,7 +1,7 @@
 # Installer Testing Guide
 This is a guide for installer testing, feel free to pr to add and improve it!
 
-## Heuristic - ShuoldshS  <TODO: Find better acronym>
+## Heuristic - ShouldshS  <TODO: Find better acronym>
 
 - S - Security: e.g. does it give windows signing errors?
 - S - Size: does it include unnecessary files?
