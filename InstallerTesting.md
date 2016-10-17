@@ -1,7 +1,7 @@
 # Installer Testing Guide
 This is a guide for installer testing, feel free to pr to add and improve it!
 
-## Heuristic - ShouldshS  <TODO: Find better acronym>
+## Heuristic - ShodsRhuls  <TODO: Find better acronym>
 
 - S - Security: e.g. does it give windows signing errors?
 - S - Size: does it include unnecessary files?
@@ -13,3 +13,4 @@ This is a guide for installer testing, feel free to pr to add and improve it!
 - H - Help: does it include reasonable help content?
 - U - Usability: is the installer a brick to get through?
 - L - License: click-through in place? License for dlls and such included?
+- R - Run: does the installed application run? Does it run from shortcuts created (if any)?
