@@ -66,16 +66,17 @@ A heuristic is a fallible experience-based technique that is useful for problem 
 |Portability		| Not sure this affects us, does it work on mobile?
 |Localizability	| Do you ever do string comparisons?  Or numerical comparisons?  If in doubt run it on a Turkish machine.
 
----- extras ----
+#### Extras
 |Heuristics			| Description
 |---------------| -----------
 |Documentation | Is there user documentation explaining how to use the system? Is there help? Are there design/achitecture docs? Readmes? 
 |Recoverability | Does the system recover from serious errors gracefully?
 
----- performance ----
+#### Performance
+Remember to take business growth into account, you should be able to tell the business when the system will stop meeting requirements at it's current rate of growth. Test both at nominal and at least 2x nominal measured load, this factor is up for debate.
+
 |Heuristics			| Description
 |---------------| -----------
-Remember to take business growth into account, you should be able to tell the business when the system will stop meeting requirements at it's current rate of growth. Test both at nominal and at least 2x nominal measured load, this factor is up for debate.
 |Volume | How does the system handle large volumes of data? Using high volumes of data what happens to the responsiveness of the system
 |Stress | Stress the system by limiting the physical assests it has access to, reduce memory, IO, or CPU. If possible find where it stops working
 |Load | Emulate different constant loads and measure the systems response times. The load size should be related the business requirements. 
