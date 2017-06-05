@@ -71,6 +71,8 @@ A heuristic is a fallible experience-based technique that is useful for problem 
 |---------------| -----------
 |Documentation | Is there user documentation explaining how to use the system? Is there help? Are there design/achitecture docs? Readmes? 
 |Recoverability | Does the system recover from serious errors gracefully?
+|Failover | When the system fails does it fail over to DR? When the main system comes back online can we go back to it?
+|Compliance | Does the system comply with all laws and regulatory requirements?
 
 #### Performance
 Remember to take business growth into account, you should be able to tell the business when the system will stop meeting requirements at it's current rate of growth. Test both at nominal and at least 2x nominal measured load, this factor is up for debate.
@@ -82,6 +84,7 @@ Remember to take business growth into account, you should be able to tell the bu
 |Load | Emulate different constant loads and measure the systems response times. The load size should be related the business requirements. 
 |Ramp | Ramp the load on the system up, measure the response, the max level and rate of increase needs to come from business requirements or measured performance.
 |Spike | Does you system need to handle large spikes in load? What does the live performance profile look like? Give the system a spike and measure how long it takes to clear out load.
+|Endurance | How long can the system survive at a reasonably high load?
 
 ### Oracles
 An Oracle is a means to recognise and evaluate problems in software.
