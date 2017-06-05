@@ -55,7 +55,7 @@ A heuristic is a fallible experience-based technique that is useful for problem 
 |Capability			| What can the software do? What should it do?
 |Reliability		| How often would this break?
 |Usability			| How easy is it to use? Can the user figure out what to do?
-|Security			  | If a hacker attempted to get access how easy would it be?
+|Security			  | If a hacker attempted to get access how easy would it be? See Katrina's [security pathway](http://katrinatester.blogspot.co.uk/search/label/Pathway)
 |Scalability		| Does this work for 2 users, 10 users, 50 users?  Think about concurrency and data size.
 |Performance		| Will the user notice how long this takes?  How will this scale with multiple users, more blocks, larger dbs, massive migration scripts?
 |Installability	| Do files need to be added or removed from the installer?  Does this change dependencies?
