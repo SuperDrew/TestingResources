@@ -102,6 +102,6 @@ Consistency oracles: `PIC UP CHEFS`
 |History              |Consistent with itself over time.
 |Explainability       |Consistent with ability to explain it.
 |Familiar             |Consistent with pattern of solutions for familiar problems.
-|Standards & Statues  |Complies with applicable laws and standards.
+|Standards & Statutes  |Complies with applicable laws and standards.
 
 Credit: The Heuristics and Oracles above stem from James Bach's work.
