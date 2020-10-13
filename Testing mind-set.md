@@ -1,4 +1,4 @@
-# Testing mind-set list
+# Testing Mind-set
 This documents purpose is to assist an individual to perform testing activities.  Reading through it before attempting to test should help approaching testing when coming from a different function.
 
 ## Mind-set
